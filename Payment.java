@@ -26,7 +26,7 @@ public class Payment extends AppCompatActivity {
     /*
         Método para mostrar produtos selecionados e o valor total a ser pago.
         OBS:Infelizmente, se um produto é escolhido, nem seu nome nem seu valor é repassado para
-        o resumo.
+        o resumo, mas estou tentando corrigir esse erro.
     */
     public void displayResumo(String message) {
         TextView ResumoTextView = (TextView) findViewById(R.id.resumo_text);
