@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.finalproject.Pedido">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="HOT"
+                    style="@style/HeaderTextStyle"/>
+
+                <CheckBox
+                    android:id="@+id/dinamite_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dinamite"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+                <CheckBox
+                    android:id="@+id/furacao_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Furacão"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+                <CheckBox
+                    android:id="@+id/philadelphia_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Philadelphia"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="24dp">
+
+                <TextView
+                    android:id="@+id/temaki_text"
+                    android:text="Temaki"
+                    style="@style/HeaderTextStyle"/>
+
+                <CheckBox
+                    android:id="@+id/tradicional_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tradicional"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+                <CheckBox
+                    android:id="@+id/tradicional_hot_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tradicional HOT"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+                <CheckBox
+                    android:id="@+id/especial_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Especial"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hot_text"
+                    android:text="Tradicional"
+                    style="@style/HeaderTextStyle"/>
+
+                <CheckBox
+                    android:id="@+id/hossomaki_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hossomaki"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+                <CheckBox
+                    android:id="@+id/uramaki_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Uramaki"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+                <CheckBox
+                    android:id="@+id/niguiri_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Niguiri"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="24dp">
+
+                <TextView
+                    android:id="@+id/combos_text"
+                    android:text="Combos"
+                    style="@style/HeaderTextStyle"/>
+
+                <CheckBox
+                    android:id="@+id/canoa_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Canoa"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+                <CheckBox
+                    android:id="@+id/lancha_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lancha"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+                <CheckBox
+                    android:id="@+id/iate_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Iate"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/outros_text"
+                    android:text="OUTROS"
+                    style="@style/HeaderTextStyle"/>
+
+                <CheckBox
+                    android:id="@+id/huramaki_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harumaki"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+                <CheckBox
+                    android:id="@+id/ceviche_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ceviche"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+                <CheckBox
+                    android:id="@+id/sunomono_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sunomono"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="24dp">
+
+                <TextView
+                    android:id="@+id/bebidas_text"
+                    android:text="bebidas"
+                    style="@style/HeaderTextStyle"/>
+
+                <CheckBox
+                    android:id="@+id/refrigerante_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Refrigerante"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+                <CheckBox
+                    android:id="@+id/suco_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Suco"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+                <CheckBox
+                    android:id="@+id/cerveja_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cerveja"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:paddingLeft="8dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/fechar_pedido_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fechar pedido"
+            android:layout_gravity="center_horizontal"
+            android:background="#FF6D00"
+            android:textColor="#FFFFFF"
+            android:onClick="fecharpedido" />
+
+    </LinearLayout>
+</ScrollView>
